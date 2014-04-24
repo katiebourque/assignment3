@@ -42,7 +42,7 @@ body {
 
 p   {
     padding: 4rem, 2.5rem, 10%;
-    margin: 2;
+    margin: 3;
     font-family: Futura, Arial, Sans-Serif;
     font-size: 1rem;
     font-weight:lighter;
@@ -113,6 +113,7 @@ h1 {
     font-weight: lighter;
     line-height:2.6rem;
     color: #463e48;
+    text-align:center;
 }
     
     
@@ -141,6 +142,15 @@ figcaption {
     list-style: none;
 }
 
+.bucket1 a,
+.bucket1 a:link,
+.bucket1 a:visited {
+    float: left;
+    margin: 1rem;
+    padding: .5rem;
+    text-decoration:none;
+}
+
 .bucket2 {
     overflow: hidden;
 }
@@ -148,9 +158,19 @@ figcaption {
 .bucket2 figure {
     margin: 1rem;
     padding: 0rem;
-    width: 10%;
+    width: 40%;
     list-style: none;
     
+}
+
+.bucket2 a,
+.bucket2 a:link,
+.bucket2 a:visited {
+    float: left;
+    margin: 0rem;
+    padding: 0;
+    width: 20%;
+    text-decoration: none;
 }
 
 .bucket3 {
@@ -163,18 +183,26 @@ figcaption {
     list-style: none;
 }
 
+.bucket3 a,
+.bucket3 a:link,
+.bucket3 a:visited {
+    margin: 0rem;
+    padding: .5rem;
+    width: 90%;
+    text-decoration: none;
+}
+
 figure a,
 figure a:link,
 figure a:visited {
-    font-size:.875rem;
     color: white;
     text-decoration:none;
 }
 
 
 footer {
-    margin: 0;
     padding: 0;
+    margin:0;
     background-color: #dfd3c7;
 }
 
