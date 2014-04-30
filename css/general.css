@@ -41,8 +41,6 @@ body {
 }
 
 p   {
-    padding: 4rem, 2.5rem, 10%;
-    margin: 3;
     font-family: Futura, Arial, Sans-Serif;
     font-size: 1rem;
     font-weight:lighter;
@@ -57,8 +55,10 @@ header {
     background-position:center;
 }
 
+
+
 .logo {
-    width: 11rem;
+    width: 2rem;
     height: auto;
     float: left;
     margin: 1.5rem 5%;
@@ -106,8 +106,6 @@ article {
     
     
 h1 {
-    margin:0;
-    padding:0;
     font-size:2rem;
     font-family: Futura, Arial, Sans-Serif;
     font-weight: lighter;
